@@ -1,0 +1,6 @@
+"alias","pop","parent","dims","gating_method","gating_args","collapseDataForGating","groupBy","preprocessing_method","preprocessing_args"
+"nonDebris","+","root","FSC-A","mindensity","","","","",""
+"singlets","+","nonDebris","FSC-A,FSC-W","singletGate","","","","",""
+"CD45","+","singlets","APC-A","mindensity","","","","",""
+"CD3","+","CD45","FITC-A","mindensity","","","","",""
+"Tcell","+","CD3","PerCP-Cy5-5-A,APC-Cy7-A","flowClust.2d","K=4","","","",""
